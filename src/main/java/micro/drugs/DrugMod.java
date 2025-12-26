@@ -1,5 +1,6 @@
 package micro.drugs;
 
+import micro.drugs.block.ModBlocks;
 import micro.drugs.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,7 +14,6 @@ public class DrugMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
-
-
+		ModBlocks.registerModBlocks();
 	}
 }
